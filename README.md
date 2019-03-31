@@ -1,5 +1,5 @@
-# My personal developer website lives here
+# My personal developer website
 
 ### Showcase your software development skills
 
-This repository contains my website that has links to my pet projects, technical blog posts etc
+This repository hosts my personal developer website that has links to my pet projects, technical blog posts etc
