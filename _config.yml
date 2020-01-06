@@ -44,12 +44,14 @@ social_media:
   # website: http://your_website_url
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Computational Creativity
+    web_url: https://en.wikipedia.org/wiki/Computational_creativity
+    image_url: https://i.imgur.com/l78hXsRs.png
 
-  - name: Web design
+  - name: STEAM Education
+    web_url: https://en.wikipedia.org/wiki/STEAM_fields
+    image_url: 
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Magic and Juggling
+    web_url: https://www.instagram.com/techillusionist/
+    image_url: https://i.imgur.com/552cUWRs.png
