@@ -27,10 +27,10 @@ Make sure you have the corresponding version of JavaFX Runtime, in my case it wo
 
 6. Click on "Run" in menu bar --> "Edit Configuration" and now we need to provide JVM options in order to execute JavaFX program.  
 
-7. In "VM Options" provide JavaFX module path to JVM by typing : --module-path PathToFolderJavaFXSDK/lib --add-modules javafx.controls,javafx.fxml. 
+7. In "VM Options" provide the JavaFX lib directory path in your machine as following arguments : --module-path PathToFolderJavaFXSDK/lib --add-modules javafx.controls,javafx.fxml. 
 
-8. Click on "Apply" and "Ok". 
+8. Click on "Apply" and "Ok" button. 
 
-9. Run the Project by clicking "Run" menu --> "Run `Main`". 
+9. Run the Project by clicking "Run" Menu --> "Run `Main`". 
 
-10. Notice the JavaFX project starts and in the title bar it says "Hello World". *Congrautlations, you are now running JavaFX project!*. 
+10. *Congrautlations, you are now running JavaFX 13 Application and you can see 'Hello World' in the title of the same!*. 
