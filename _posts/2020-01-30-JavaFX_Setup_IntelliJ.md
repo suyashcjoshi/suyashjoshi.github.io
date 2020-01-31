@@ -1,5 +1,5 @@
 ---
-title: "How to install and run "Hello World" JavaFX Project using IntelliJ IDEA"
+title: "How to install and run 'Hello World' JavaFX Project using IntelliJ IDEA"
 published: true
 ---
 
