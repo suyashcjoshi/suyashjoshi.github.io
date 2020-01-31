@@ -28,6 +28,7 @@ Once all of the above is in place, follow these steps:
 7. In "VM Options" provide JavaFX module path to JVM by typing : --module-path PathToFolderJavaFXSDK/lib --add-modules javafx.controls,javafx.fxml
 8. Click on "Apply" and "Ok"
 9. Run the Project by clicking "Run" menu --> "Run 'Main'"
-10. Notice the JavaFX project starts and in the title bar it says "Hello World"
+10. Notice the JavaFX project starts and in the title bar it says "Hello World"  
 
-Congrautlations, you are now running JavaFX project!
+
+*Congrautlations, you are now running JavaFX project!*
