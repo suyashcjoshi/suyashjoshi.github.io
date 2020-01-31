@@ -30,5 +30,4 @@ Once all of the above is in place, follow these steps:
 9. Run the Project by clicking "Run" menu --> "Run 'Main'"
 10. Notice the JavaFX project starts and in the title bar it says "Hello World"  
 
-
-*Congrautlations, you are now running JavaFX project!*
+<br /><i>Congrautlations, you are now running JavaFX project!</>
