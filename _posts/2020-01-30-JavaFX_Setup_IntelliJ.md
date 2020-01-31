@@ -1,24 +1,22 @@
 ---
-title: "Welcome to Jekyll!"
+title: "How to install and run "Hello World" JavaFX Project using IntelliJ IDEA"
 published: true
 ---
 
-How to install and run "Hello World" JavaFX Project using IntelliJ IDEA
+## Introduction:
 
-JavaFX 2.0 used to be part of JDK 8 however if you want to use the latest Java langauge version, JavaFX doesn't come bundled with the
-standard JDK anymore. This is not a big problem, as it can be used as a 3rd party library in our Java Projects. There are just a few steps
-that we have to follow. I've written them down below.
+JavaFX 2.0 used to be part of JDK 8 however if you want to use the latest Java langauge version, JavaFX doesn't come bundled with the standard JDK anymore. This is not a big problem, as it can be used as a 3rd party library in our Java Projects. There are just a few steps that we have to follow. I've written them down below.
 
-Pre-requisite :
-At the time of writing this tutorial I'm using Java 13 (latest) so first step is to make sure you hava JDK 13.x on your machine,
-if you can download and intall the open source OpenJDK from https://jdk.java.net/13/.
+## Pre-requisite :
+At the time of writing this tutorial I'm using Java 13 (latest) so first step is to make sure you hava JDK 13.x on your machine, if you can download and intall the open source OpenJDK from https://jdk.java.net/13/.
 
-JavaFX Setup :
-Make sure you hava the corresponding version of JavaFX Runtime, in my case it would be JavaFX 13.x which can be downloaded 
-from https://gluonhq.com/products/javafx/
+## JavaFX Setup :
+Make sure you hava the corresponding version of JavaFX Runtime, in my case it would be JavaFX 13.x which can be downloaded from https://gluonhq.com/products/javafx/
 
-IntelliJ Setup & Running Hello World Application :
+## IntelliJ Setup & Running Hello World Application :
+
 I'm using the Community Edition of the IntelliJ IDEA version 2019.x which can be found here: https://www.jetbrains.com/idea/download
+
 Once all of the above is in place, follow these steps:
 
 1. Create a new Project  --> JavaFX --> JavaFX Application (make sure Project SDK maps to JDK 13)
