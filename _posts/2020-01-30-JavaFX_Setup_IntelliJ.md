@@ -1,5 +1,5 @@
 ---
-title: "How to install and run `Hello World1` JavaFX Project using IntelliJ IDEA"
+title: "How to setup and run JavaFX version 13 `Hello World` project using IntelliJ IDEA"
 published: true
 ---
 
@@ -8,10 +8,10 @@ published: true
 JavaFX 2.0 used to be part of JDK 8 however if you want to use the latest Java langauge version, JavaFX doesn't come bundled with the standard JDK anymore. This is not a big problem, as it can be used as a 3rd party library in our Java Projects. There are just a few steps that we have to follow. I've written them down below.
 
 ## Pre-requisite :
-At the time of writing this tutorial I'm using Java 13 (latest) so first step is to make sure you hava JDK 13.x on your machine, if you can download and intall the open source OpenJDK from https://jdk.java.net/13/.
+At the time of writing this tutorial I'm using Java 13 so first step is to make sure you hava JDK 13.x on your machine. You can can download and intall either Oracle JDK or the open source OpenJDK from https://jdk.java.net/13/.
 
 ## JavaFX Setup :
-Make sure you hava the corresponding version of JavaFX Runtime, in my case it would be JavaFX 13.x which can be downloaded from https://gluonhq.com/products/javafx/
+Make sure you have the corresponding version of JavaFX Runtime, in my case it would be JavaFX 13.x which can be downloaded from https://gluonhq.com/products/javafx/. You can save it anywhere, I generally put in in the same directory where JDK is installed.
 
 ## IntelliJ Setup & Running Hello World Application :
 
