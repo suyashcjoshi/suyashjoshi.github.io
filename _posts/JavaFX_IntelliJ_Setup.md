@@ -1,4 +1,3 @@
-title	published
 How to install and run "Hello World" JavaFX Project using IntelliJ IDEA
 
 JavaFX 2.0 used to be part of JDK 8 however if you want to use the latest Java langauge version, JavaFX doesn't come bundled with the
