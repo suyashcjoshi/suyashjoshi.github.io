@@ -15,21 +15,22 @@ Make sure you have the corresponding version of JavaFX Runtime, in my case it wo
 
 ## IntelliJ Setup & Running Hello World Application :
 
-1. Create a new Project--> JavaFX --> JavaFX Application (make sure Project SDK maps to JDK 13)
+1. Create a new Project--> JavaFX --> JavaFX Application (make sure Project SDK maps to JDK 13). 
 
-2. Follow the Wizard to create the project and give is a meaningful name (in my case I called it HelloJavaFX)
+2. Follow the Wizard to create the project and give is a meaningful name (in my case I called it HelloJavaFX). 
 
-3. You should see a Simple JavaFX Project created for you, click on Main.java file and notice how the classes are not loaded
+3. You should see a Simple JavaFX Project created for you, click on Main.java file and notice how the classes are not loaded. 
 
-4. Install the JavaFX library for your Project by going to File --> Project Structure --> Library --> Java --> location to JavaFX lib folder
+4. Install the JavaFX library for your Project by going to File --> Project Structure --> Library --> Java --> location to JavaFX lib folder. 
 
-5. Notice the Main.Java file will now become error free as the IDE will be able to detect the required JavaFX classes
-6. Click on "Run" in menu bar --> "Edit Configuration" and now we need to provide JVM options in order to execute JavaFX program.
+5. Notice the Main.Java file will now become error free as the IDE will be able to detect the required JavaFX classes. 
 
-7. In "VM Options" provide JavaFX module path to JVM by typing : --module-path PathToFolderJavaFXSDK/lib --add-modules javafx.controls,javafx.fxml
+6. Click on "Run" in menu bar --> "Edit Configuration" and now we need to provide JVM options in order to execute JavaFX program.  
 
-8. Click on "Apply" and "Ok"
+7. In "VM Options" provide JavaFX module path to JVM by typing : --module-path PathToFolderJavaFXSDK/lib --add-modules javafx.controls,javafx.fxml. 
 
-9. Run the Project by clicking "Run" menu --> "Run `Main`"
+8. Click on "Apply" and "Ok". 
 
-10. Notice the JavaFX project starts and in the title bar it says "Hello World". *Congrautlations, you are now running JavaFX project!*
+9. Run the Project by clicking "Run" menu --> "Run `Main`". 
+
+10. Notice the JavaFX project starts and in the title bar it says "Hello World". *Congrautlations, you are now running JavaFX project!*. 
