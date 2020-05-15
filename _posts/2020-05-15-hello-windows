@@ -5,3 +5,9 @@ Setting up Developer Enviornment on Windows:
 2. Enable Linux Subsystem to allow for bash shell enviornment
 
 3. Install your favorite Linux OS from Microsoft Store
+
+IDE's & Programming Enviornment
+
+1. Install Vistual Studio Community Edition and supporting tools such as Node.JS and C++ Build and Python as these are commonly used.
+
+2. Java - Install the JDK from OpenJDK website by downloading the binaries and then setting the enviornment variable for JAVA_HOME
