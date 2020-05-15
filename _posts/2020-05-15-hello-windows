@@ -1,14 +1,26 @@
-Setting up Developer Enviornment on Windows:
+Setting up Developer Enviornment on Windows 10:
 
-1. Enable Developer Mode on Windows 10
+1. Enable "Developer Mode" on Windows 10
 
-2. Enable Linux Subsystem to allow for bash shell enviornment
+2. (Optional) Enable Linux Subsystem to allow for bash shell enviornment
 
-3. Install your favorite Linux OS from Microsoft Store
+3. (Optional) Install your favorite Linux OS from Microsoft Store
+
+4. Install git : https://git-scm.com/download/win
+
+5. Install Privacy First Brave as the browser. You also get Chrome Dev Tools without needing Google Chrome as it's built on Chromium.
 
 IDE's & Programming Enviornment
 
-1. Install Vistual Studio Community Edition and supporting tools such as Node.JS and C++ Build and Python as these are commonly used. 
+1. Install Vistual Studio Community Edition (https://visualstudio.microsoft.com/vs/) and supporting tools such as Node.JS and C++ Build and Python as these are commonly used. 
 This is akin to how we install Swift, Xcode and XCode Build Tools in Mac. Be careful about what you're installing as the downloads be be very large.
 
-2. Java - Install the JDK from OpenJDK website by downloading the binaries and then setting the enviornment variable for JAVA_HOME
+2. Java - Install the JDK from OpenJDK website (https://jdk.java.net/archive/) by downloading the binaries and then setting the enviornment variable for JAVA_HOME. 
+I recommend installing a LTS Version such as 11.x inside of "Program Files" directory. 
+See this StackOverflow answer for detailed instructions: https://stackoverflow.com/questions/32241179/setting-up-enviromental-variables-in-windows-10-to-use-java-and-javac
+
+3. Java IDE - IntelliJ, Eclipse or Netbeans
+
+4. Visual Studio Code (optional) as a lightweight editor : https://code.visualstudio.com/
+
+Finally make sure to verify the above installations from the command prompt by checking the respective languges and tools that got installed.
