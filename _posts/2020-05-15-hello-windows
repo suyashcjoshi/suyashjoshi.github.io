@@ -8,6 +8,7 @@ Setting up Developer Enviornment on Windows:
 
 IDE's & Programming Enviornment
 
-1. Install Vistual Studio Community Edition and supporting tools such as Node.JS and C++ Build and Python as these are commonly used.
+1. Install Vistual Studio Community Edition and supporting tools such as Node.JS and C++ Build and Python as these are commonly used. 
+This is akin to how we install Swift, Xcode and XCode Build Tools in Mac. Be careful about what you're installing as the downloads be be very large.
 
 2. Java - Install the JDK from OpenJDK website by downloading the binaries and then setting the enviornment variable for JAVA_HOME
