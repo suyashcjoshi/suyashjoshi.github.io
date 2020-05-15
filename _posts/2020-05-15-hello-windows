@@ -10,6 +10,8 @@ Setting up Developer Enviornment on Windows 10:
 
 5. Install Privacy First Brave as the browser. You also get Chrome Dev Tools without needing Google Chrome as it's built on Chromium.
 
+6. Install Windows Terminal from Microsoft Store
+
 IDE's & Programming Enviornment
 
 1. Install Vistual Studio Community Edition (https://visualstudio.microsoft.com/vs/) and supporting tools such as Node.JS and C++ Build and Python as these are commonly used. 
