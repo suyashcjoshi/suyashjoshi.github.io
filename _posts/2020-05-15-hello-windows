@@ -23,6 +23,6 @@ See this StackOverflow answer for detailed instructions: https://stackoverflow.c
 
 3. Java IDE - IntelliJ, Eclipse or Netbeans
 
-4. Visual Studio Code (optional) as a lightweight editor : https://code.visualstudio.com/
+4. Visual Studio Code (optional) as a lightweight editor : https://code.visualstudio.com/ and your favorite extensions for the same.
 
 Finally make sure to verify the above installations from the command prompt by checking the respective languges and tools that got installed.
