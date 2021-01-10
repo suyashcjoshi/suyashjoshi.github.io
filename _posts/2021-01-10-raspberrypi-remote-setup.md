@@ -28,25 +28,24 @@ If you're not looking to do java development you can skip the 'java' setps and j
 4. Here we will create a configuration file so when the pi boots up will be able to connect to your local network over WiFi. Raspbian has will able to copy wifi 
 details from /boot/wpa_supplicant.conf into /etc/wpa_supplicant/wpa_supplicant.conf to automatically configure wireless network access.
 
-Type the following to create a new file in 'boot' directory
-`touch wpa_supplicant.conf`
+Type the following to create a new file in 'boot' directory `touch wpa_supplicant.conf`
 
 Open add the following and edit 'ssid' and 'psk' values with your network configuration. Leave key_mgmt field as is.
 
-`
+```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 network={
     ssid="YOUR_NETWORK_NAME"
     psk="YOUR_PASSWORD"
     key_mgmt=WPA-PSK
 }
-`
+````
 Double check to make sure it is looking good by typing `cat wpa_supplicant.conf`
 5. Create another filed called 'ssh' in the 'boot' directory by typing `touch ssh`. 
 If it is found, SSH will be enabled on the pi, and the file is deleted. The content of the file does not matter, it could contain text, or nothing at all.
-6. Remove/Unmount the micro-sd card and insert/mount it into the Raspberry Pi and connect it to power. This will boot the pi and have it connect to the network.
-7. Ping the pi by it's default hostname 'raspberrypi' like so `ping raspberrypi` or `ping raspberrypi.local`, this should show you results of data being recieved from pi and it's IP address.
-8. Let's connect to the pi remotely using SSH, the default username is 'pi' so type the following command `ssh pi@pi_ip_address`. You should now be connected over ssh, pat yourself on the back!
+6. First power off the pi if not already then unmount/eject the micro-sd card. On macOS, you can do that typing `diskutil unmount /Volumens/boot` and then physically remove it and insert it onto the Raspberry Pi. Finally connect it to power, this will boot the pi and have it connect to the network using configuration that we provided earlier.
+7. Let's find the pi on local network using 'ping' took, all we need is the hostname for the pi it's default hostname is 'raspberrypi'. So type the following command `ping raspberrypi` or `ping raspberrypi.local`, this should show you results of data being recieved from pi and it's IP address.
+8. Now we will use the pi's IP address to connect remotely using SSH, the default username for Raspberry Pi is 'pi' so type the following command `ssh pi@pi_ip_address`. You should now be connected over ssh, pat yourself on the back, we are almost done.
 
 
 IDE Setup for remote development and deployment:
