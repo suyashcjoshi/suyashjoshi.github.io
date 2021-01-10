@@ -1,6 +1,6 @@
 ---
-layout: 
 title: How to develop and deploy from Primary Machine using IDE to Raspberry Pi remotely
+published: false
 ---
 
 
