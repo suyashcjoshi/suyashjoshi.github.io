@@ -1,6 +1,6 @@
 ---
-title: "How to setup and Raspberry Pi with for remote development (without mouse/monitor/keyboard)"
-published: false
+title: "How to setup and Raspberry Pi with for remote development (without physical mouse/monitor/keyboard peripherals)"
+published: true
 ---
 
 ## Introduction:
@@ -18,7 +18,6 @@ If you're not looking to do java development you can skip the 'java' setps and j
 ### Primary / Main Machine Setup
 - MacOS / Windows / Linux with Open JDK / Oracle JDK 11 and SSH tool installed
 - VNC Viewer : Download and install VNC Viewer if not already (https://www.realvnc.com/en/connect/download/viewer/)
-- IDE : I will to use either IntelliJ for Java development and demonstrate it's ability to execute remotely from the IDE itself. You can also try other IDE's such as Netbeans or VS Code which also have similar capability.
 
 ## Raspberry Pi OS Setup
 1. Connect the micro-sd card with your main machine
@@ -64,6 +63,7 @@ java --version
 6. Let's activate the enviornment variable changes by executing the following command `source /etc/environment`
 7. Verify JAVA_HOME has been set as enviornment variable by priting it to the console, make sure the path is correct `echo $JAVA_HOME`
 
+Congratulations, you have a Raspberry Pi ready for development using Java! In the next post, I will go over how to using modern IDE like IntelliJ for Java development and demonstrate it's ability to execute remotely from the IDE itself.
 
 
 
