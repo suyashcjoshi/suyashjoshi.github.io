@@ -42,7 +42,7 @@ network={
 Double check to make sure it is looking good by typing `cat wpa_supplicant.conf`
 5. Create another filed called 'ssh' in the 'boot' directory by typing `touch ssh`. 
 If it is found, SSH will be enabled on the pi, and the file is deleted. The content of the file does not matter, it could contain text, or nothing at all.
-6. First power off the pi if not already then unmount/eject the micro-sd card. On macOS, you can do that typing `diskutil unmount /Volumens/boot` and then physically remove it and insert it onto the Raspberry Pi. Finally connect it to power, this will boot the pi and have it connect to the network using configuration that we provided earlier.
+6. First power off the pi if not already then unmount/eject the micro-sd card. On macOS, you can do that typing `diskutil unmount /Volumes/boot` and then physically remove it and insert it onto the Raspberry Pi. Finally connect it to power, this will boot the pi and have it connect to the network using configuration that we provided earlier.
 7. Let's find the pi on local network using 'ping' took, all we need is the hostname for the pi it's default hostname is 'raspberrypi'. So type the following command `ping raspberrypi` or `ping raspberrypi.local`, this should show you results of data being recieved from pi and it's IP address.
 8. Now we will use the pi's IP address to connect remotely using SSH, the default username for Raspberry Pi is 'pi' so type the following command `ssh pi@pi_ip_address`. If promoted accept the key fingerprint and provide is the default passowrd for the Raspberry Pi which is 'raspberry'
 9. Finally you should be remotely connected to the pi, congratulations!
