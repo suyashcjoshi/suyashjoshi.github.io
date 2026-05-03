@@ -1,4 +1,4 @@
-# My personal developer portfolio (in progress)
+# My personal developer portfolio (in progress - 2026)
 
 ### New website coming soon!
 
